@@ -31,11 +31,9 @@ CREATE TABLE IF NOT EXISTS product_summary (
     AveragePrice DECIMAL(10, 2)
 );
 
-##Indexes for product_summary
--- (StockCode is already the primary key)
 
 
-###Analytics Views
+
 
 ##Customer Purchase History View
 CREATE OR REPLACE VIEW customer_purchase_history AS
