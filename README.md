@@ -40,6 +40,7 @@ RetailFlow is a production-grade data engineering system designed to process lar
 - Computes key metrics: `TotalRevenue`, `TotalUnitsSold`, and `AvgPrice` per `StockCode`
 - Stored in indexed MySQL tables purpose-built for low-latency API consumption
 
+Dataset: UCI Online Retail II — 82,863 cleaned transactions | 3,250 Gold layer product aggregations
 ---
 
 ## Technology Stack
